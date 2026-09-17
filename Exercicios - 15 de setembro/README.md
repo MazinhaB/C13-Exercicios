@@ -12,12 +12,8 @@ O notebook contém as respostas, implementação dos sistemas de controle, simul
 
 ## Como executar
 
-Para executar o notebook, é necessário ter Python e as bibliotecas utilizadas instaladas.
+Foram adicionadas imagens contendo as fórmulas usadas para os cálculos. Clone o repositório se quiser que as imagens utilizadas no notebook estejam disponíveis:
 
-Principais bibliotecas:
-
-- NumPy
-- Matplotlib
-- Control
-
-O notebook pode ser executado utilizando Jupyter Notebook, JupyterLab ou Google Colab.
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd <NOME_DO_REPOSITORIO>
