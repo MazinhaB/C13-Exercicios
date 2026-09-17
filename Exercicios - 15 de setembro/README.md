@@ -15,5 +15,7 @@ O notebook contém as respostas, implementação dos sistemas de controle, simul
 Foram adicionadas imagens contendo as fórmulas usadas para os cálculos. Clone o repositório se quiser que as imagens utilizadas no notebook estejam disponíveis:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_REPOSITORIO>
+git clone https://github.com/MazinhaB/C13-Exercicios.git
+cd C13 - Exercicios
+cd "Exercicios - 15 de setembro"
+python -m notebook
