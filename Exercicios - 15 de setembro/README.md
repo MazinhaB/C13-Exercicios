@@ -16,6 +16,6 @@ Foram adicionadas imagens contendo as fórmulas usadas para os cálculos. Clone 
 
 ```bash
 git clone https://github.com/MazinhaB/C13-Exercicios.git
-cd C13 - Exercicios
+cd C13-Exercicios
 cd "Exercicios - 15 de setembro"
 python -m notebook
