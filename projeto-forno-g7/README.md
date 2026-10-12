@@ -174,11 +174,3 @@ python -m streamlit run app.py
 ```
 
 A interface permite configurar o SetPoint, selecionar o método de sintonia ou ajustar manualmente os parâmetros PID e visualizar as respostas simuladas de temperatura e potência.
-
-## 8. Próximas etapas
-
-- Confirmar a interpretação física da entrada experimental e sua relação com o comando do atuador.
-- Revisar as hipóteses e limitações da identificação do processo.
-- Validar os resultados das simulações e consolidar as métricas dos controladores.
-- Documentar a metodologia, os resultados finais e as conclusões do projeto.
-- Revisar a documentação e preparar a entrega do repositório.
