@@ -32,6 +32,21 @@ def simular_fopdt(t, k, tau, theta, delta_u, y0):
 
     return saida
 
+def calcular_eqm(saida_real, saida_modelo):
+    """
+    Calcula o erro quadrático médio entre a saída experimental e a saída estimada.
+    """
+    saida_real = np.asarray(saida_real, dtype=float).flatten()
+    saida_modelo = np.asarray(saida_modelo, dtype=float).flatten()
+
+    if len(saida_real) != len(saida_modelo):
+        raise ValueError("As saídas real e estimada devem ter o mesmo tamanho.")
+
+    if len(saida_real) == 0:
+        raise ValueError("As saídas não podem estar vazias.")
+
+    return float(np.mean((saida_real - saida_modelo) ** 2))
+
 def calcular_rmse(saida_real, saida_modelo):
     """
     Calcula a raiz do erro quadrático médio entre
