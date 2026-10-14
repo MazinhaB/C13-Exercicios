@@ -93,19 +93,17 @@ O sinal `Degrau` apresenta valor constante igual a 50 durante todo o intervalo r
 
 Além disso, a temperatura ainda apresenta tendência de crescimento no final do intervalo analisado. Isso limita a confirmação do valor de regime permanente e afeta a interpretação física dos parâmetros identificados.
 
-Consequentemente, os parâmetros do modelo e os resultados das simulações devem ser considerados **preliminares**. A interpretação de `Degrau` como uma variação física de entrada de amplitude 50 ainda precisa ser confirmada.
-
 ## 5. Resultados
 
 ### 5.1. Comparação dos métodos de identificação
 
-Os métodos de Smith e Sundaresan–Krishnaswamy apresentaram os seguintes resultados:
+Os métodos de Smith e Sundaresan apresentaram os seguintes resultados:
 
-| Parâmetro ou métrica | Smith | Sundaresan–Krishnaswamy |
+| Parâmetro ou métrica | Smith | Sundaresan |
 |---|---:|---:|
 | Ganho \(K\) | 1,30883 | 1,30883 |
-| Constante de tempo \(\tau\) (s) | 158,40 | 148,74 |
-| Tempo morto \(\theta\) (s) | 16,00 | 22,48 |
+| Constante de tempo (τ) (s) | 158,40 | 148,74 |
+| Tempo morto (θ) (s) | 16,00 | 22,48 |
 | RMSE (°C) | 0,9136 | 0,9680 |
 | EQM (°C²) | 0,8348 | 0,9369 |
 
@@ -116,8 +114,8 @@ O ajuste por mínimos quadrados também foi realizado, com os seguintes resultad
 | Parâmetro ou métrica | Mínimos quadrados |
 |---|---:|
 | Ganho \(K\) | 1,35733 |
-| Constante de tempo \(\tau\) (s) | 173,3246 |
-| Tempo morto \(\theta\) (s) | 14,2198 |
+| Constante de tempo (τ) (s) | 173,3246 |
+| Tempo morto (θ) (s) | 14,2198 |
 | RMSE (°C) | 0,2680 |
 | EQM (°C²) | 0,0718 |
 | Convergência do ajuste | Sim |
@@ -130,9 +128,9 @@ As simulações foram realizadas considerando um *setpoint* de 40 °C.
 
 | Métrica | CHR — sem sobressinal | Cohen–Coon |
 |---|---:|---:|
-| \(K_p\) | 4,5384 | 10,2764 |
-| \(T_i\) (s) | 158,4 | 37,782 |
-| \(T_d\) (s) | 8,0 | 5,7133 |
+| Kp | 4,5384 | 10,2764 |
+| Ti (s) | 158,4 | 37,782 |
+| Td (s) | 8,0 | 5,7133 |
 | Sobressinal | 3,13% | 20,56% |
 | Tempo de subida | 36,9 s | 19,6 s |
 | Tempo de acomodação | 220,6 s | 109,2 s |
