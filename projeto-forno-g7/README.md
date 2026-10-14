@@ -26,6 +26,7 @@ Os principais objetivos são:
 ### 3.1. Modelo FOPDT
 
 O comportamento térmico do forno é aproximado por um modelo de primeira ordem com atraso de transporte, representado pela função de transferência:
+
 $$
 G(s)=\frac{K e^{-\theta s}}{\tau s+1}
 $$
